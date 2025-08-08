@@ -20,10 +20,10 @@ Charityfy</h1> </Link>
 <div className="menu-toggle" id="menu-toggle" onClick={toggleMenu}>&#9776;</div>
                 <ul className={`nav_list ${isMenuOpen ? 'show' : ''}`}>
                     <li className="nav-item"><NavLink to="/" end  className={({isActive})=>`nav-link ${(isActive?"fw-bold text-success text-decoration-underline":"text-gray")}`}>Home</NavLink></li>
-                    <li className="nav-item"><NavLink to="/about" className={({isActive})=>`nav-link ${(isActive)?" fw-bold text-success text-decoration-underline":"text-gray"} `}>About</NavLink></li>
-                    <li className="nav-item"><NavLink to="/form"className={({isActive})=>`nav-link ${(isActive)?" fw-bold text-success text-decoration-underline":"text-gray"} `}>Form</NavLink></li>
-                    <li className="nav-item"><NavLink to="/contact" className={({isActive})=>`nav-link ${(isActive)?" fw-bold text-success text-decoration-underline":"gray"} `}>Contact</NavLink></li>
-                    <li className="nav-item"><NavLink to="/github" className={({isActive})=>`nav-link  ${(isActive)?" fw-bold text-success text-decoration-underline":"gray"} `}>Github</NavLink></li>
+                    <li className="nav-item"><NavLink to="about" className={({isActive})=>`nav-link ${(isActive)?" fw-bold text-success text-decoration-underline":"text-gray"} `}>About</NavLink></li>
+                    <li className="nav-item"><NavLink to="form"className={({isActive})=>`nav-link ${(isActive)?" fw-bold text-success text-decoration-underline":"text-gray"} `}>Form</NavLink></li>
+                    <li className="nav-item"><NavLink to="contact" className={({isActive})=>`nav-link ${(isActive)?" fw-bold text-success text-decoration-underline":"gray"} `}>Contact</NavLink></li>
+                    <li className="nav-item"><NavLink to="github" className={({isActive})=>`nav-link  ${(isActive)?" fw-bold text-success text-decoration-underline":"gray"} `}>Github</NavLink></li>
                      <li><button className='home-btn'>Start Giving!</button></li>                    
                 </ul>
             </header>

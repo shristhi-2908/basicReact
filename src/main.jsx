@@ -18,30 +18,35 @@ const router=createBrowserRouter([
       },
 
       {
-        path:"/about",
+        path:"about",
         element:<About/>
       },
 
       {
-        path:"/form",
+        path:"form",
         element:<VolunteerForm/>
       },
 
       {
-        path:"/contact",
+        path:"contact",
         element:<Contact/>
       },
 
       
       {
         loader: githubInfoLoader,
-        path:"/github",
+        path:"github",
         element:<Github/>,
       },
 
-    ]
+    ],
   },
-])
+],
+{
+   basename:"/basicReact",
+
+}
+)
 
 
 createRoot(document.getElementById('root')).render(
